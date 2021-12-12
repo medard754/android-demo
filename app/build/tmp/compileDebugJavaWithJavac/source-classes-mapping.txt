@@ -9,37 +9,39 @@ medard754/demo/databinding/FragmentSecondBinding.java
 medard754/demo/SecondFragment.java
  medard754.demo.SecondFragment
  medard754.demo.SecondFragment$1
+medard754/demo/Calculator.java
+ medard754.demo.Calculator
 medard754/demo/databinding/FragmentFirstBinding.java
  medard754.demo.databinding.FragmentFirstBinding
+medard754/demo/BuildConfig.java
+ medard754.demo.BuildConfig
 medard754/demo/databinding/ContentMainBinding.java
  medard754.demo.databinding.ContentMainBinding
 medard754/demo/databinding/ActivityMainBinding.java
  medard754.demo.databinding.ActivityMainBinding
 medard754/demo/databinding/ActivityCalculatriceBinding.java
  medard754.demo.databinding.ActivityCalculatriceBinding
-medard754/demo/BuildConfig.java
- medard754.demo.BuildConfig
-medard754/demo/Calculatrice.java
- medard754.demo.Calculatrice
- medard754.demo.Calculatrice$1
- medard754.demo.Calculatrice$10
- medard754.demo.Calculatrice$11
- medard754.demo.Calculatrice$12
- medard754.demo.Calculatrice$13
- medard754.demo.Calculatrice$14
- medard754.demo.Calculatrice$15
- medard754.demo.Calculatrice$16
- medard754.demo.Calculatrice$17
- medard754.demo.Calculatrice$18
- medard754.demo.Calculatrice$19
- medard754.demo.Calculatrice$2
- medard754.demo.Calculatrice$20
- medard754.demo.Calculatrice$21
- medard754.demo.Calculatrice$22
- medard754.demo.Calculatrice$3
- medard754.demo.Calculatrice$4
- medard754.demo.Calculatrice$5
- medard754.demo.Calculatrice$6
- medard754.demo.Calculatrice$7
- medard754.demo.Calculatrice$8
- medard754.demo.Calculatrice$9
+medard754/demo/calculatriceActivity.java
+ medard754.demo.calculatriceActivity
+ medard754.demo.calculatriceActivity$1
+ medard754.demo.calculatriceActivity$10
+ medard754.demo.calculatriceActivity$11
+ medard754.demo.calculatriceActivity$12
+ medard754.demo.calculatriceActivity$13
+ medard754.demo.calculatriceActivity$14
+ medard754.demo.calculatriceActivity$15
+ medard754.demo.calculatriceActivity$16
+ medard754.demo.calculatriceActivity$17
+ medard754.demo.calculatriceActivity$18
+ medard754.demo.calculatriceActivity$19
+ medard754.demo.calculatriceActivity$2
+ medard754.demo.calculatriceActivity$20
+ medard754.demo.calculatriceActivity$21
+ medard754.demo.calculatriceActivity$22
+ medard754.demo.calculatriceActivity$3
+ medard754.demo.calculatriceActivity$4
+ medard754.demo.calculatriceActivity$5
+ medard754.demo.calculatriceActivity$6
+ medard754.demo.calculatriceActivity$7
+ medard754.demo.calculatriceActivity$8
+ medard754.demo.calculatriceActivity$9

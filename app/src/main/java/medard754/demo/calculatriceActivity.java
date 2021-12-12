@@ -18,6 +18,7 @@ public class calculatriceActivity extends AppCompatActivity {
     public  String operateur="";
     double value1,value2;
     boolean crunPlus,crunMul,crunMoin,crunDiv,crunMod;
+    Calculator calcul=new Calculator();
     String recup;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,7 @@ public class calculatriceActivity extends AppCompatActivity {
         Button mod=(Button) findViewById(R.id.mod);
         Button egal=(Button) findViewById(R.id.egal);
         EditText edit=(EditText) findViewById(R.id.edit);
+        Calculator calcul=new Calculator();
         zero.setOnClickListener(
                 new View.OnClickListener() {
                     @Override
@@ -226,14 +228,8 @@ public class calculatriceActivity extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                       /* if(clickoperateur){
-                            chiffre=chiffre+Double.valueOf(edit.getText().toString()).doubleValue();
-                            edit.setText(String.valueOf(chiffre));
-                        }else{
-                            chiffre = Double.valueOf(edit.getText().toString()).doubleValue();
-                            clickoperateur = true;
-                        }*/
-                        value1=Double.parseDouble(edit.getText()+"");
+
+                        value1=Integer.parseInt(edit.getText()+"");
                         crunPlus=true;
                         edit.setText(null);
                     };
@@ -297,22 +293,26 @@ public class calculatriceActivity extends AppCompatActivity {
                         value2=Double.parseDouble(edit.getText()+"");
                         if(crunPlus==true){
                             value2=Double.parseDouble(edit.getText()+"");
-                            edit.setText(value1+value2+"");
+                            Calculator var= calcul.addition(value1,value2);
+                            edit.setText((CharSequence) var);
+                            //edit.setText(value1+value2+"");
                             crunMul=false;
                         }
                         if(crunMoin==true){
                             value2=Double.parseDouble(edit.getText()+"");
-                            edit.setText(value1-value2+"");
+                            Calculator var= calcul.soustraction(value1,value2);
+                            edit.setText((CharSequence) var);
                             crunMoin=false;
                         }
                         if(crunMul==true){
                             value2=Double.parseDouble(edit.getText()+"");
-                            edit.setText(value1*value2+"");
+                            Calculator var= calcul.multiplication(value1,value2);
+                            edit.setText((CharSequence) var);
                             crunMul=false;
                         }
                         if(crunDiv==true){
-
-                            edit.setText(value1/value2+"");
+                            Calculator var= calcul.division(value1,value2);
+                            edit.setText((CharSequence) var);
                             crunDiv=false;
                         }
 
